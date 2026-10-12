@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+fieldset {
+    padding: 5px;
+    border: none;
+}
+p {
+    color: grey;
+    padding: 3px;
+}
+legend {
+    font-weight: bold;
+    color: rgb(19, 19, 39);
+    font-size: 28px;
+}
+.block {
+    display: flex;
+    gap: 15px;
+    margin-top: 25px;
+    align-items: center;
+}
+article {
+    padding: 25px;
+}
+.block input, select, textarea {
+    flex: 1 0 auto;
+    padding: 10px;
+    border: rgb(32, 126, 167) 1px solid;
+    border-radius: 8px;
+}
+.block label {
+    width: 140px;
+    flex: 0 1 auto;
+    text-align: right;
+    color: rgb(19, 19, 39);
+}
+.actions {
+    display: flex;
+    justify-content: flex-end;
+}
+.block textarea {
+    padding-bottom: 60px;
+}
+.actions input {
+    border: none;
+    background-color: rgb(32, 32, 214);
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 20px;
+}

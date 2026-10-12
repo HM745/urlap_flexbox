@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stlye.css">
+    <title>Huber Milán </title>
+</head>
+
+<body>
+        <article>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Kapcsolatfelvétel</legend>
+
+                    <p>Kérjük, töltse ki az alábbi mezőket az üzenet küldéséhez!</p>
+
+                    <div class="block">
+                        <label for="nev">Teljes név: </label>
+                        <input type="text" name="nev" id="nev" placeholder="Pl. Kovács János">
+                    </div>
+
+                    <div class="block">
+                        <label for="email">E-mail cím:</label>
+                        <input type="email" id="email" name="email" placeholder="janos@pelda.hu">
+                    </div>
+
+                    <div class="block">
+                        <label for="tema">Téma:</label>
+                        <select name="tema" id="tema">
+                            <option value="" disabled selected hidden >Válasszon témát...</option>
+                            <option value="valami">2</option>
+                            <option value="vla">3</option>
+                        </select>
+                    </div>
+                    
+                    <div class="block">
+                        <label for="uzenet">Üzenet:</label>
+                        <textarea name="uzenet" id="uzenet" placeholder="Írja ide az üzenetét..."></textarea>
+                    </div>
+                </fieldset>
+                <div class="actions">
+                    <input type="submit" value="Üzenet küldése">
+                </div>
+            </form>
+        </article>
+    </main>
+</body>
+
+</html>
